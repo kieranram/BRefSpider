@@ -1,6 +1,6 @@
 # Shotchart Analysis
 
-This repository was created as part of a project for Georgia Tech ISYE 6740 - Computational Data Analytics and a separate project in ISYE 6420 - Bayesian Statistics. The spider was a shared backbone, while the 
+This repository was created as part of a project for Georgia Tech ISYE 6740 - Computational Data Analytics.
 
 ## The spider
 
