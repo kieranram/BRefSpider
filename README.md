@@ -67,6 +67,8 @@ The principle components are very effective at summarizing the data, as the belo
 
 ![Explained Variance](ExplainedVariance.png)
 
-Clustering on the first 39 principle components gives us the following dendrogram, showing how similar players are to each other (based on the shot charts we showed). Because all the data is scaled to represent shooting rates, we see some counter-intuitive grouping of low- and high-volume players. 
+Clustering on the first 39 principle components gives us the following dendrogram, showing how similar players are to each other (based on the shot charts we showed). Because all the data is scaled to represent shooting rates, we see some counter-intuitive grouping of low- and high-volume players. However, some of the groupings make sense. For example, one of the closest "related" groups of players is found at the bottom, consisting of D'Angelo Russell through Reggie Bullock. These are all players who shoot well from a variety of spots, but are shoot both more frequently and more accurately from 3 than the average player. 
 
 ![Player Clusters](dendo1.png)
+
+One way to get around the issue of dissimilar players being clustered is to add in volume data. For example, we could scale the entire shot choice chart by the number of shots taken, thus moving players away from each other. 
